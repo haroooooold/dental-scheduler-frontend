@@ -17,8 +17,7 @@ The frontend allows users to:
 | Frontend Framework | React (with Vite)   |
 | UI Components      | Material UI (MUI)   |
 | HTTP Client        | Axios               |
-| Date Management    | Date-FNS            |
-| Deployment         | Netlify (or Vercel) |
+| Deployment         | Netlify             |
 
 ---
 
@@ -36,7 +35,7 @@ The frontend allows users to:
 
 ## 🚀 Deployed Frontend URL
 
-🔗 [Frontend Live Link](https://your-frontend-url.netlify.app)
+🔗 [Frontend Live Link](https://dental-scheduler.netlify.app)
 
 ✅ Fully integrated with backend API:
 
