@@ -33,10 +33,6 @@ The frontend allows users to:
 
 ---
 
-## 🚀 Deployed Frontend URL
-
-🔗 [Frontend Live Link](https://dental-scheduler.netlify.app)
-
 ✅ Fully integrated with backend API:
 
 - Backend URL: `http://a97b7d07aa44646d8ac1345569b44e33-509261369.us-east-1.elb.amazonaws.com`
