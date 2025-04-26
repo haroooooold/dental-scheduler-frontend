@@ -17,7 +17,6 @@ The frontend allows users to:
 | Frontend Framework | React (with Vite)   |
 | UI Components      | Material UI (MUI)   |
 | HTTP Client        | Axios               |
-| Deployment         | Netlify             |
 
 ---
 
