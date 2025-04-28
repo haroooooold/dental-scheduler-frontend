@@ -67,7 +67,14 @@ export default function Login() {
         }
       );
 
-      const token = response.data.data.token;
+      const token = response.data?.token; // ✅ updated
+
+      console.log("Login response:", response.data); // Log the entire response
+
+      if (!token) {
+        throw new Error("Token not found. Please try again.");
+      }
+
       localStorage.setItem("authToken", token);
 
       setToast({
@@ -78,13 +85,14 @@ export default function Login() {
 
       reset();
 
-      setTimeout(() => navigate("/dashboard"), 2000);
+      setTimeout(() => navigate("/dashboard"), 500);
     } catch (error: any) {
       console.error(error);
 
       const message =
         error.response?.data?.message ||
-        error.response?.data?.data?.error_message ||
+        error.response?.data?.error_message ||
+        error.message ||
         "Login failed. Please try again.";
 
       setToast({
